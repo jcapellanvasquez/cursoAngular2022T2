@@ -1,1 +1,49 @@
-<app-tarjeta-presentacion nombre="Jose"></app-tarjeta-presentacion>
+<!-- <div class="p-component">
+    <app-tarjeta-presentacion 
+    [nombre]="'Jose J'"
+    (onGetNombre)="mostrarNombre($event)"
+    [(ocupacion)]="ocupacion"
+    [apellido]="'Perez'">
+    </app-tarjeta-presentacion>
+
+    <button
+    (click)="cambiarOcupacion()"
+    >Cambiar ocupacion</button>
+
+    <button icon="pi pi-check" pButton type="button" label="Click" ></button>
+
+    <p-card>
+        Content
+    </p-card>
+</div> -->
+
+<!-- <app-tarjeta-presentacion-card
+    nombre="Julio José Capellán"
+    [ocupacion]="ocupacion"
+    bio="Hola!, yo seré su maestro en este curso de Angular."
+>
+</app-tarjeta-presentacion-card> -->
+
+
+
+<button
+pButton
+    (click)="dividirPersonas()"
+    >Cortar listado</button>
+
+<div class="flex flex-wrap justify-content-around">
+    <app-tarjeta-presentacion-card
+    *ngFor="let persona of personas"
+        [id]="persona.id"
+        [nombre]="persona.name"
+        [ocupacion]="persona.ocupacion"
+        [bio]="persona.bio"
+        (onEliminar)="eliminar($event)"
+    >
+    </app-tarjeta-presentacion-card>
+</div>
+
+
+<!-- <button
+    (click)="cambiarOcupacion()"
+    >Cambiar ocupacion</button> -->
