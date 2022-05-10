@@ -9,17 +9,33 @@ import { TarjetaPresentacionComponent } from './tarjeta-presentacion/tarjeta-pre
 import {ButtonModule} from 'primeng/button';
 import {CardModule} from 'primeng/card';
 import { TarjetaPresentacionCardComponent } from './tarjeta-presentacion-card/tarjeta-presentacion-card.component';
+import { CustomPipe } from './custom.pipe';
+import { RouterModule, Routes } from '@angular/router';
+import { NotFoundComponent } from './not-found/not-found.component';
+
+const routes : Routes = [
+  {
+    path: 'mi-primera-ruta',
+    component: TarjetaPresentacionComponent,
+  },
+  {
+    path: '**',
+    component: NotFoundComponent
+  },
+]
 
 @NgModule({
   declarations: [
     AppComponent,
     TarjetaPresentacionComponent,
-    TarjetaPresentacionCardComponent
+    TarjetaPresentacionCardComponent,
+    CustomPipe
   ],
   imports: [
     BrowserModule,
     ButtonModule,
-    CardModule
+    CardModule,
+    RouterModule.forRoot(routes)
   ],
   providers: [],
   bootstrap: [AppComponent]

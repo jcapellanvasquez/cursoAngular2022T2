@@ -16,34 +16,38 @@
         Content
     </p-card>
 </div> -->
-
-<!-- <app-tarjeta-presentacion-card
-    nombre="Julio José Capellán"
-    [ocupacion]="ocupacion"
-    bio="Hola!, yo seré su maestro en este curso de Angular."
->
-</app-tarjeta-presentacion-card> -->
+<!-- 
+<app-tarjeta-presentacion-card nombre="Julio José Capellán" [ocupacion]="ocupacion"
+    bio="Hola!, yo seré su maestro en este curso de Angular." #tarjeta>
+</app-tarjeta-presentacion-card>
 
 
 
-<button
-pButton
-    (click)="dividirPersonas()"
-    >Cortar listado</button>
+<button pButton (click)="dividirPersonas()">Cortar listado</button>
 
-<div class="flex flex-wrap justify-content-around">
+
+<button pButton (click)="getDataTarjeta()">get Data tarjeta </button>
+
+
+<button pButton (click)="setDataTarjeta()">set Data tarjeta </button> -->
+
+<!-- <div class="flex flex-wrap justify-content-around">
     <app-tarjeta-presentacion-card
     *ngFor="let persona of personas"
         [id]="persona.id"
         [nombre]="persona.name"
         [ocupacion]="persona.ocupacion"
         [bio]="persona.bio"
+        [sueldo]="persona.sueldo"
+        [date]="persona.date"
         (onEliminar)="eliminar($event)"
     >
     </app-tarjeta-presentacion-card>
-</div>
+</div> -->
 
 
 <!-- <button
     (click)="cambiarOcupacion()"
     >Cambiar ocupacion</button> -->
+
+<router-outlet></router-outlet>

@@ -3,7 +3,7 @@
         <img src="../../assets/image/profile2.jpg" alt="profile">
     </ng-template>
     <h2># {{id}}</h2>
-    <h3>Nombre: {{nombre}}</h3>
+    <h3>Nombre: {{nombre | titlecase}}</h3>
     <h3>Ocupación:
         {{ocupacion}}
         <span [ngSwitch]="ocupacion">
@@ -19,8 +19,10 @@
     </h3>
     <h3>Bio</h3>
     <p>
-        {{bio}}
+        {{bio | custom}}
     </p>
+    <h3>Sueldo: {{sueldo | currency:'DOP':'DOP$':'4.2-4'}}</h3>
+    <p>Fecha: {{date | date:'dd/MMM/yyyy'}}</p>
     <button pButton
             (click)="eliminar()"
     >Eliminar</button>
