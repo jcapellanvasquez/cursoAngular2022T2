@@ -1,0 +1,15 @@
+<button pButton (click)="getPosts()">
+    Peticion al servidor
+</button>
+
+<p-card styleClass="my-3" 
+[header]="p.title" 
+*ngFor="let p of posts">
+    {{p.id}} | {{p.body}}
+</p-card>
+
+<!-- <ul>
+    <li *ngFor="let c of clienteSrv.getClientes()">
+        {{c.id}} | {{c.name}}
+    </li>
+</ul> -->

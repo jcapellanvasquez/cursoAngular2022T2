@@ -1,0 +1,9 @@
+<button class="my-3" pButton (click)="agregarCliente()">
+    Agregar cliente
+</button>
+
+<ul>
+    <li *ngFor="let c of clienteSrv.getClientes()">
+        {{c.id}} | {{c.name}}
+    </li>
+</ul>
