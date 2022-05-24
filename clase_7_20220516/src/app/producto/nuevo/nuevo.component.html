@@ -1,0 +1,16 @@
+<div class="grid">
+    <div class="col-6">
+        <p-card styleClass="mt-3" header="Registro de producto">
+            <div class="field">
+                <label for="name">Name</label>
+                <input [(ngModel)]="producto.name" pInputText type="text" id="name">
+            </div>
+            <div class="field">
+                <label for="stock">Stock</label>
+                <input [(ngModel)]="producto.stock" pInputText type="number" id="stock">
+            </div>
+            {{producto | json}}
+            <button pButton (click)="salvar()">Salvar</button>
+        </p-card>
+    </div>
+</div>

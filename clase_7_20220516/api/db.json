@@ -1,0 +1,596 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "products": [
+    {
+      "id": 2,
+      "name": "Bread - Corn Muffaletta",
+      "stock": 46.0341
+    },
+    {
+      "id": 3,
+      "name": "Sauce Tomato Pouch",
+      "stock": 7.3735
+    },
+    {
+      "id": 4,
+      "name": "Crackers Cheez It",
+      "stock": 63.627
+    },
+    {
+      "id": 5,
+      "name": "Sword Pick Asst",
+      "stock": 5.0822
+    },
+    {
+      "id": 6,
+      "name": "Muffin Mix - Banana Nut",
+      "stock": 53.0509
+    },
+    {
+      "id": 7,
+      "name": "Carrots - Jumbo",
+      "stock": 62.1953
+    },
+    {
+      "id": 8,
+      "name": "Orange - Tangerine",
+      "stock": 12.8201
+    },
+    {
+      "id": 9,
+      "name": "Juice - Grapefruit, 341 Ml",
+      "stock": 88.7548
+    },
+    {
+      "id": 10,
+      "name": "Tray - 16in Rnd Blk",
+      "stock": 44.566
+    },
+    {
+      "id": 11,
+      "name": "Guava",
+      "stock": 24.5216
+    },
+    {
+      "id": 12,
+      "name": "Chicken - White Meat, No Tender",
+      "stock": 54.4037
+    },
+    {
+      "id": 13,
+      "name": "Hickory Smoke, Liquid",
+      "stock": 63.3978
+    },
+    {
+      "id": 14,
+      "name": "Chinese Foods - Chicken",
+      "stock": 78.0553
+    },
+    {
+      "id": 15,
+      "name": "Beef - Top Sirloin - Aaa",
+      "stock": 53.1597
+    },
+    {
+      "id": 16,
+      "name": "Beef - Kobe Striploin",
+      "stock": 63.8211
+    },
+    {
+      "id": 17,
+      "name": "Bread - White, Unsliced",
+      "stock": 36.2115
+    },
+    {
+      "id": 18,
+      "name": "Wine - Chateau Aqueria Tavel",
+      "stock": 57.3046
+    },
+    {
+      "id": 19,
+      "name": "Extract Vanilla Pure",
+      "stock": 99.328
+    },
+    {
+      "id": 20,
+      "name": "Wine La Vielle Ferme Cote Du",
+      "stock": 40.0355
+    },
+    {
+      "id": 21,
+      "name": "Veal - Leg",
+      "stock": 2.6573
+    },
+    {
+      "id": 22,
+      "name": "Mackerel Whole Fresh",
+      "stock": 60.3011
+    },
+    {
+      "id": 23,
+      "name": "Cake - Lemon Chiffon",
+      "stock": 31.5904
+    },
+    {
+      "id": 24,
+      "name": "Bonito Flakes - Toku Katsuo",
+      "stock": 74.8545
+    },
+    {
+      "id": 25,
+      "name": "Scallops - 10/20",
+      "stock": 31.7238
+    },
+    {
+      "id": 26,
+      "name": "Cake Slab",
+      "stock": 92.9898
+    },
+    {
+      "id": 27,
+      "name": "Island Oasis - Ice Cream Mix",
+      "stock": 78.1245
+    },
+    {
+      "id": 28,
+      "name": "Snapple Lemon Tea",
+      "stock": 54.5589
+    },
+    {
+      "id": 29,
+      "name": "Pork - Bacon, Double Smoked",
+      "stock": 79.6783
+    },
+    {
+      "id": 30,
+      "name": "Wine - Manischewitz Concord",
+      "stock": 99.2832
+    },
+    {
+      "id": 31,
+      "name": "Wine - Alsace Riesling Reserve",
+      "stock": 61.222
+    },
+    {
+      "id": 32,
+      "name": "Cookie Dough - Double",
+      "stock": 68.0508
+    },
+    {
+      "id": 33,
+      "name": "Apple - Macintosh",
+      "stock": 62.4974
+    },
+    {
+      "id": 34,
+      "name": "Cleaner - Lime Away",
+      "stock": 24.0973
+    },
+    {
+      "id": 35,
+      "name": "Pasta - Fett Alfredo, Single Serve",
+      "stock": 74.0325
+    },
+    {
+      "id": 36,
+      "name": "Towel Dispenser",
+      "stock": 42.8865
+    },
+    {
+      "id": 37,
+      "name": "Halibut - Fletches",
+      "stock": 85.5368
+    },
+    {
+      "id": 38,
+      "name": "Pastry - Baked Scones - Mini",
+      "stock": 5.9423
+    },
+    {
+      "id": 39,
+      "name": "Dr. Pepper - 355ml",
+      "stock": 50.6929
+    },
+    {
+      "id": 40,
+      "name": "Sage - Fresh",
+      "stock": 91.9152
+    },
+    {
+      "id": 41,
+      "name": "Wine - Zinfandel Rosenblum",
+      "stock": 76.9311
+    },
+    {
+      "id": 42,
+      "name": "Pork - Kidney",
+      "stock": 6.4169
+    },
+    {
+      "id": 43,
+      "name": "Clams - Littleneck, Whole",
+      "stock": 44.9436
+    },
+    {
+      "id": 44,
+      "name": "Lamb - Leg, Diced",
+      "stock": 54.2086
+    },
+    {
+      "id": 45,
+      "name": "Compound - Raspberry",
+      "stock": 43.753
+    },
+    {
+      "id": 46,
+      "name": "Scotch - Queen Anne",
+      "stock": 47.5769
+    },
+    {
+      "id": 47,
+      "name": "Lime Cordial - Roses",
+      "stock": 1.7057
+    },
+    {
+      "id": 48,
+      "name": "Sugar - Brown",
+      "stock": 91.8855
+    },
+    {
+      "id": 49,
+      "name": "Veal - Insides Provini",
+      "stock": 63.585
+    },
+    {
+      "id": 50,
+      "name": "Rum - Mount Gay Eclipes",
+      "stock": 46.0592
+    },
+    {
+      "id": 51,
+      "name": "Jolt Cola - Electric Blue",
+      "stock": 99.5424
+    },
+    {
+      "id": 52,
+      "name": "Peach - Fresh",
+      "stock": 26.2622
+    },
+    {
+      "id": 53,
+      "name": "Tart Shells - Savory, 3",
+      "stock": 84.0654
+    },
+    {
+      "id": 54,
+      "name": "Buffalo - Short Rib Fresh",
+      "stock": 54.9769
+    },
+    {
+      "id": 55,
+      "name": "Wine - Charddonnay Errazuriz",
+      "stock": 52.1032
+    },
+    {
+      "id": 56,
+      "name": "Pastry - French Mini Assorted",
+      "stock": 64.4255
+    },
+    {
+      "id": 57,
+      "name": "Dome Lid Clear P92008h",
+      "stock": 10.2775
+    },
+    {
+      "id": 58,
+      "name": "Carbonated Water - Raspberry",
+      "stock": 17.1553
+    },
+    {
+      "id": 59,
+      "name": "Compound - Orange",
+      "stock": 77.4943
+    },
+    {
+      "id": 60,
+      "name": "Orange Roughy 4/6 Oz",
+      "stock": 67.54
+    },
+    {
+      "id": 61,
+      "name": "Bread - Olive Dinner Roll",
+      "stock": 76.9708
+    },
+    {
+      "id": 62,
+      "name": "Wine - Rubyport",
+      "stock": 88.0662
+    },
+    {
+      "id": 63,
+      "name": "Pie Filling - Apple",
+      "stock": 23.7436
+    },
+    {
+      "id": 64,
+      "name": "Soup - Campbells, Chix Gumbo",
+      "stock": 9.5919
+    },
+    {
+      "id": 65,
+      "name": "Pepper - Orange",
+      "stock": 60.1653
+    },
+    {
+      "id": 66,
+      "name": "Rosemary - Primerba, Paste",
+      "stock": 80.2466
+    },
+    {
+      "id": 67,
+      "name": "Halibut - Fletches",
+      "stock": 87.3458
+    },
+    {
+      "id": 68,
+      "name": "Beef Tenderloin Aaa",
+      "stock": 97.1377
+    },
+    {
+      "id": 69,
+      "name": "Cookie Dough - Oatmeal Rasin",
+      "stock": 32.0771
+    },
+    {
+      "id": 70,
+      "name": "Nut - Almond, Blanched, Whole",
+      "stock": 8.3659
+    },
+    {
+      "id": 71,
+      "name": "Ice Cream Bar - Hageen Daz To",
+      "stock": 85.62
+    },
+    {
+      "id": 72,
+      "name": "Dip - Tapenade",
+      "stock": 42.4952
+    },
+    {
+      "id": 73,
+      "name": "Beef - Rouladin, Sliced",
+      "stock": 43.4584
+    },
+    {
+      "id": 74,
+      "name": "Juice - Tomato, 10 Oz",
+      "stock": 89.2754
+    },
+    {
+      "id": 75,
+      "name": "Cake - Box Window 10x10x2.5",
+      "stock": 31.8031
+    },
+    {
+      "id": 76,
+      "name": "Sugar - Cubes",
+      "stock": 28.9734
+    },
+    {
+      "id": 77,
+      "name": "Brandy - Orange, Mc Guiness",
+      "stock": 23.9843
+    },
+    {
+      "id": 78,
+      "name": "Wine - Sauvignon Blanc Oyster",
+      "stock": 85.3746
+    },
+    {
+      "id": 79,
+      "name": "Corn - Cream, Canned",
+      "stock": 48.3269
+    },
+    {
+      "id": 80,
+      "name": "Bread - Sticks, Thin, Plain",
+      "stock": 16.1592
+    },
+    {
+      "id": 81,
+      "name": "Dragon Fruit",
+      "stock": 56.0323
+    },
+    {
+      "id": 82,
+      "name": "Eggplant - Asian",
+      "stock": 84.2033
+    },
+    {
+      "id": 83,
+      "name": "Persimmons",
+      "stock": 81.6827
+    },
+    {
+      "id": 84,
+      "name": "Mushroom - Morels, Dry",
+      "stock": 1.1931
+    },
+    {
+      "id": 85,
+      "name": "Table Cloth 54x54 Colour",
+      "stock": 4.6297
+    },
+    {
+      "id": 86,
+      "name": "Wine - Sogrape Mateus Rose",
+      "stock": 54.7735
+    },
+    {
+      "id": 87,
+      "name": "Numi - Assorted Teas",
+      "stock": 36.0213
+    },
+    {
+      "id": 88,
+      "name": "Tomatoes - Roma",
+      "stock": 61.4764
+    },
+    {
+      "id": 89,
+      "name": "Anisette - Mcguiness",
+      "stock": 18.8145
+    },
+    {
+      "id": 90,
+      "name": "Lotus Leaves",
+      "stock": 84.8288
+    },
+    {
+      "id": 91,
+      "name": "Cookie Dough - Oatmeal Rasin",
+      "stock": 90.4035
+    },
+    {
+      "id": 92,
+      "name": "Pasta - Linguini, Dry",
+      "stock": 14.7595
+    },
+    {
+      "id": 93,
+      "name": "Wine - Chenin Blanc K.w.v.",
+      "stock": 14.3497
+    },
+    {
+      "id": 94,
+      "name": "Milk 2% 500 Ml",
+      "stock": 9.5405
+    },
+    {
+      "id": 95,
+      "name": "Sole - Iqf",
+      "stock": 40.394
+    },
+    {
+      "id": 96,
+      "name": "Kellogs All Bran Bars",
+      "stock": 54.49
+    },
+    {
+      "id": 97,
+      "name": "Ecolab - Lime - A - Way 4/4 L",
+      "stock": 13.1802
+    },
+    {
+      "id": 98,
+      "name": "Wine - Semi Dry Riesling Vineland",
+      "stock": 72.5555
+    },
+    {
+      "id": 99,
+      "name": "Butter - Unsalted",
+      "stock": 86.3552
+    },
+    {
+      "id": 100,
+      "name": "Vinegar - Cider",
+      "stock": 35.3071
+    },
+    {
+      "name": "[editado] - Mi producto desde Angular",
+      "stock": 200,
+      "id": 101
+    },
+    {
+      "name": "Mi producto desde Angular",
+      "stock": 200,
+      "id": 103
+    },
+    {
+      "name": "Mi producto desde Angular",
+      "stock": 200,
+      "id": 104
+    },
+    {
+      "name": "Mi producto desde Angular",
+      "stock": 200,
+      "id": 105
+    },
+    {
+      "name": "Mi producto desde Angular",
+      "stock": 200,
+      "id": 106
+    },
+    {
+      "name": "Mi producto desde Angular",
+      "stock": 200,
+      "id": 108
+    },
+    {
+      "name": "Mi producto desde Angular",
+      "stock": 200,
+      "id": 109
+    },
+    {
+      "name": "Mi producto desde Angular",
+      "stock": 200,
+      "id": 110
+    },
+    {
+      "name": "Mi producto desde Angular",
+      "stock": 200,
+      "id": 111
+    },
+    {
+      "name": "Mi producto desde Angular",
+      "stock": 200,
+      "id": 112
+    },
+    {
+      "name": "Mi producto desde Angular",
+      "stock": 200,
+      "id": 113
+    },
+    {
+      "name": "Mi producto desde Angular",
+      "stock": 200,
+      "id": 114
+    },
+    {
+      "name": "Mi producto desde Angular",
+      "stock": 200,
+      "id": 115
+    },
+    {
+      "name": "Mi producto desde Angular",
+      "stock": 200,
+      "id": 116
+    },
+    {
+      "name": "Mi producto desde Angular",
+      "stock": 200,
+      "id": 117
+    },
+    {
+      "name": "Chocolate diplomatico",
+      "stock": 200,
+      "id": 118
+    }
+  ]
+}

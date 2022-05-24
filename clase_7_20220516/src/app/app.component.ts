@@ -12,15 +12,28 @@ export class AppComponent {
 
   constructor() {
     this.items = [
-      { 
-        icon: 'pi pi-home', 
-        routerLink: 'inicio', 
+      {
+        icon: 'pi pi-home',
+        routerLink: 'inicio',
         label: 'Inicio'
       },
-      { 
-        icon: 'pi pi-users', 
-        routerLink: 'cliente', 
-        label: 'Clientes' 
+      {
+        icon: 'pi pi-users',
+        routerLink: 'cliente',
+        label: 'Clientes'
+      }, {
+        icon: 'pi pi-file',
+        label: 'Producto',
+        items: [
+          {
+            label: 'Listado',
+            routerLink: 'producto/listado',
+          },
+          {
+            label: 'Nuevo',
+            routerLink: 'producto/nuevo',
+          }
+        ]
       }
     ]
   }
