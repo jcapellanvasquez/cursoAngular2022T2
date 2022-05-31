@@ -1,0 +1,27 @@
+<div class="grid">
+    <div class="col-12 md-6">
+        <p-card styleClass="mt-3" header="Registro de producto">
+            <form [formGroup]="this.form">
+                <div class="field">
+                    <input type="hidden" formControlName="id">
+                    <label for="name">Name</label>
+                    <input
+                    formControlName="name"
+                    pInputText type="text" id="name">
+                    <div class="text-red-500"
+                        *ngIf="name?.errors?.['minlength']"
+                    >
+                        La longitud minima es de {{name?.errors?.['minlength']?.['requiredLength']}}
+                    </div>
+                </div>
+                <div class="field">
+                    <label for="stock">Stock</label>
+                    <input 
+                    formControlName="stock"
+                    pInputText type="number" id="stock">
+                </div>
+                <button pButton (click)="salvar()">Salvar</button>
+            </form>
+        </p-card>
+    </div>
+</div>

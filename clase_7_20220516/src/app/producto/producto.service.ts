@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
+import { delay, Observable } from 'rxjs';
 import { Producto } from '../models/producto';
 
 @Injectable()
@@ -9,7 +9,7 @@ export class ProductoService {
   constructor(private http: HttpClient) { }
 
   public getProductos(): Observable<Producto[]> {
-    return this.http.get<Producto[]>(this.url + "/products");
+    return this.http.get<Producto[]>(this.url + "/products").pipe(delay(5000));
   }
 
   public saveProducto(producto: Producto): Observable<Producto> {

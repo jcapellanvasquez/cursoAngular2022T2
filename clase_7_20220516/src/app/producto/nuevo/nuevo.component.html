@@ -3,11 +3,13 @@
         <p-card styleClass="mt-3" header="Registro de producto">
             <div class="field">
                 <label for="name">Name</label>
-                <input [(ngModel)]="producto.name" pInputText type="text" id="name">
+                <input [(ngModel)]="producto.name" 
+                pInputText type="text" id="name">
             </div>
             <div class="field">
                 <label for="stock">Stock</label>
-                <input [(ngModel)]="producto.stock" pInputText type="number" id="stock">
+                <input [(ngModel)]="producto.stock" 
+                pInputText type="number" id="stock">
             </div>
             {{producto | json}}
             <button pButton (click)="salvar()">Salvar</button>

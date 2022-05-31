@@ -32,6 +32,10 @@ export class AppComponent {
           {
             label: 'Nuevo',
             routerLink: 'producto/nuevo',
+          },
+          {
+            label: 'Nuevo usando Form API',
+            routerLink: 'producto/nuevo-form-api',
           }
         ]
       }

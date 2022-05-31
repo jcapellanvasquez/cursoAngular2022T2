@@ -7,13 +7,17 @@ import { NuevoComponent } from './nuevo/nuevo.component';
 import { CardModule } from 'primeng/card';
 import {InputTextModule} from 'primeng/inputtext';
 import { ButtonModule } from 'primeng/button';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { OrderListModule } from 'primeng/orderlist';
+import { ListadoProductoResolver } from './guards/listado-producto.resolver';
+import { NuevoFormApiComponent } from './nuevo-form-api/nuevo-form-api.component';
 
 
 @NgModule({
   declarations: [
     ListadoComponent,
-    NuevoComponent
+    NuevoComponent,
+    NuevoFormApiComponent
   ],
   imports: [
     CommonModule,
@@ -21,9 +25,12 @@ import { FormsModule } from '@angular/forms';
     CardModule,
     InputTextModule,
     ButtonModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule,
+    OrderListModule
   ],
   providers: [
+    ListadoProductoResolver,
     ProductoService
   ]
 })

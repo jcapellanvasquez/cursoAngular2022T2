@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { ClienteComponent } from './cliente/cliente.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { SessionGuard } from './session.guard';
 
 const routes: Routes = [
   {
@@ -15,7 +16,8 @@ const routes: Routes = [
   },
   {
     path:'producto',
-    loadChildren: () => import('./producto/producto.module').then( m => m.ProductoModule)
+    canActivate: [SessionGuard],
+    loadChildren: () => import('./producto/producto.module').then( m => m.ProductoModule),
   },
   {
     pathMatch: 'full',
@@ -29,7 +31,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {enableTracing: false /* Activar debugger de las rutas */})],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

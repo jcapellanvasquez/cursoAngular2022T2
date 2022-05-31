@@ -12,6 +12,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import {MenubarModule} from 'primeng/menubar';
 import {MenuItem} from 'primeng/api';
 import {CardModule} from 'primeng/card';
+import {OrderListModule} from 'primeng/orderlist';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,7 @@ import {CardModule} from 'primeng/card';
     ButtonModule,
     MenubarModule,
     HttpClientModule,
-    CardModule
+    CardModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
